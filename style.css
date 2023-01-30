@@ -127,3 +127,108 @@ nav a:hover{
 hr {
     border-color:#204c99;
 }
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget-title-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #39a9e1;
+    margin-top: 10px;
+}
+/*Deparments*/
+.blocos_aside {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blocos {
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+    margin-bottom: 30px;
+}
+/*Make An ppointent*/
+.tel,
+.email,
+.form {
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #555555;
+    align-items: flex-start;
+}
+.icon {
+   margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #727272;
+}
+/*Artigos*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    min-width: 330px;
+    flex: 1;
+
+}
+ article a {
+    text-decoration: none;
+ }
+article .news-data {
+    display: flex;
+}
+article .new-poster-at {
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+
+}
+article .news-comet {
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+article .news-thumb {
+    margin-top: 30px;
+}
+article .news-thumb {
+    width: 100%;
+    height: auto;
+}
+article .news-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 23px;
+}
+article .news-resum {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    width: 250px;
+    margin-bottom: 15px;
+}
