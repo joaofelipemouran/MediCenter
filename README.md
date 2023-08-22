@@ -1,2 +1,2 @@
 # MediaCenter
-Esse e um projeto de aprentizado
+Esse e um projeto de aprendizado
